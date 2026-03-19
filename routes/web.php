@@ -4,39 +4,39 @@ use Illuminate\Support\Facades\Route;
 
 // Landing Page
 Route::get('/', function () {
-    return view('welcome2');
+    return view('welcome');
 });
 
 // Dashboard
 Route::get('/dashboard', function () {
-    return view('dashboard2');
+    return view('dashboard');
 })->name('dashboard');
 
 // Search Page
 Route::get('/search', function () {
-    return view('search2');
+    return view('search');
 })->name('search');
 
 // Profile Page
 Route::get('/profile', function () {
-    return view('profile2');
+    return view('profile');
 })->name('profile');
 
 // Auth Pages
 Route::get('/login', function () {
-    return view('auth.login2');
+    return view('auth.login');
 })->name('login');
 
 Route::get('/register', function () {
-    return view('auth.register2');
+    return view('auth.register');
 })->name('register');
 
 // Create Page (placeholder)
 Route::get('/create', function () {
-    return view('create2');
+    return view('create');
 })->name('create');
 
 // Favorites Page (placeholder)
 Route::get('/favorites', function () {
-    return view('favorites2');
+    return view('favorites');
 })->name('favorites');
