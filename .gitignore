@@ -1,0 +1,59 @@
+# Environment variables
+.env
+.env.backup
+.env.local
+.env.*.local
+.env.production
+
+# Composer & Vendor
+/vendor
+/node_modules
+composer.lock
+package-lock.json
+yarn.lock
+
+# Laravel specific
+/bootstrap/cache/
+/storage/
+/storage/*.key
+/storage/logs
+/storage/pail
+/public/hot
+/public/storage
+/public/build
+
+# Cache files
+.phpunit.result.cache
+/.phpunit.cache
+/.cache
+
+# IDE / Editor settings
+/.vscode
+/.idea
+/.nova
+/.zed
+/.fleet
+/.phpactor.json
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+
+# Local environment files
+.env.dusk.local
+auth.json
+
+# Development files
+Homestead.json
+Homestead.yaml
+
+# Build artifacts
+npm-debug.log
+yarn-error.log
+
+# NativePHP
+/nativephp/storage
